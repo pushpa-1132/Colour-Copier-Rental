@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rent Copier - About Us</title>
+  <style>
+    body {
+      margin: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f5f7fa; color: #222;
+    }
+    header {
+      background: #1a3154; color: #fff;
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 15px 30px; position: sticky; top: 0; z-index: 9999;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    }
+    header h1 {
+      margin: 0; font-size: 1.85rem; font-weight: 700;
+    }
+    nav {
+      display: flex; align-items: center; gap: 18px; flex-wrap: wrap;
+    }
+    nav a, nav > div > a {
+      text-decoration: none; color: #fff; font-weight: 600;
+      padding: 6px 12px; border-radius: 4px;
+      transition: background-color 0.3s ease;
+      cursor: pointer;
+      white-space: nowrap;
+    }
+    nav a:hover, nav > div > a:hover {
+      background: #30486b;
+    }
+    nav > div {
+      position: relative;
+    }
+    nav > div > div {
+      display: none;
+      position: absolute;
+      top: 36px; left: 0;
+      background: #30486b; border-radius: 6px;
+      flex-direction: column;
+      min-width: 180px;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+      z-index: 9999;
+      font-weight: 500;
+    }
+    nav > div:hover > div {
+      display: flex;
+    }
+    nav > div > div a {
+      color: white; padding: 10px 16px; text-align: left;
+      border-radius: 0;
+      white-space: normal;
+    }
+    nav > div > div a:hover {
+      background: #1a3154;
+    }
+    main {
+      max-width: 1000px; margin: 60px auto 60px auto; padding: 0 20px;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 8px 24px rgba(51, 72, 111, 0.08);
+    }
+    h2 {
+      color: #1a3154;
+      font-size: 2rem;
+      margin-top: 0;
+    }
+    p {
+      line-height: 1.7;
+      font-size: 1.1rem;
+      color: #254378;
+      margin-bottom: 20px;
+    }
+    footer {
+      background: #192e43;
+      color: #c6d2e1;
+      padding: 40px 0 20px 0;
+      margin-top: 40px;
+    }
+    .footer-main {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 0 16px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 48px;
+      justify-content: space-between;
+    }
+    .footer-box {
+      flex: 1 1 220px;
+    }
+    .footer-box h4 {
+      color: #fff;
+      font-weight: 700;
+      margin-bottom: 12px;
+    }
+    .footer-box ul {
+      list-style: none;
+      margin: 0;
+      padding-left: 0;
+    }
+    .footer-box ul li {
+      margin-bottom: 10px;
+    }
+    .footer-box ul li a {
+      color: #c6d2e1;
+      text-decoration: none;
+      transition: color 0.3s;
+      font-size: 15px;
+    }
+    .footer-box ul li a:hover {
+      color: #fcba04;
+    }
+    .footer-contact {
+      color: #c6d2e1;
+      font-size: 15px;
+      margin-bottom: 10px;
+    }
+    .footer-contact a {
+      color: #c6d2e1;
+      text-decoration: none;
+    }
+    .footer-contact a:hover {
+      color: #fcba04;
+    }
+    .footer-copy {
+      text-align: center;
+      border-top: 1px solid #234052;
+      margin-top: 36px;
+      padding-top: 14px;
+      color: #6884b2;
+      font-size: 13px;
+    }
+    @media (max-width: 600px) {
+      main {
+        margin: 20px 10px;
+        padding: 20px;
+      }
+      nav {
+        justify-content: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div style="display:flex; align-items:center;">
+      <h1>Rent Copier</h1>
+    </div>
+    <nav>
+      <a href="https://www.copierpc.com.sg/">Home</a>
+      <a href="http://127.0.0.1:3000/about%20us.html">About Us</a>
+      <a href="https://www.copierpc.com.sg/blog/">Blog</a>
+      <a href="https://www.copierpc.com.sg/contact-us/">Contact</a>
+      <div>
+        <a>Services ▾</a>
+        <div>
+          <a href="https://www.copierpc.com.sg/copier-rental/">Copier Rental</a>
+          <a href="https://www.copierpc.com.sg/seo-package/">SEO</a>
+          <a href="https://www.copierpc.com.sg/monday-com-integration/">Work OS</a>
+          <a href="https://www.copierpc.com.sg/ai-chatbots/">AI Automation</a>
+        </div>
+      </div>
+      <div>
+        <a>Product ▾</a>
+        <div>
+          <a href="https://www.copierpc.com.sg/copier/">Copier</a>
+          <a href="https://www.copierpc.com.sg/it-products/">IT Products</a>
+          <a href="https://www.copierpc.com.sg/drivers/">Drivers</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <h2>About Rent Copier</h2>
+    <p>Rent Copier was founded with the vision of providing affordable and flexible office copier rental solutions to businesses across Singapore. We understand that every office has unique printing and copying needs, and we strive to offer a range of high-quality copiers and multifunction printers that meet those requirements without the burden of large upfront investments.</p>
+    <p>With over 25 years in the industry, our dedicated team has developed deep knowledge and expertise in office equipment rental, maintenance, and support, making Rent Copier a trusted partner to startups, SMEs, and large enterprises alike.</p>
+    <p>Our extensive inventory features trusted brands including FujiFilm, Canon, Epson, and Ricoh, ensuring our clients receive reliable, efficient, and cutting-edge technology. We offer personalized rental plans with dedicated technical support, allowing your business operations to run smoothly without disruption.</p>
+    <p>At Rent Copier, we are committed not only to delivering dependable office solutions but also to delivering exceptional customer service. Our mission is to simplify your office equipment needs with seamless rental experiences, expert maintenance, and prompt emergency response services.</p>
+    <p>Beyond rental, we support our clients with integrated office services such as copier disposal, relocation, and IT product rentals. Our vision is to empower businesses to focus on growth and success while we take care of their copier and technology requirements. When you choose Rent Copier, you choose reliability, professionalism, and partnership.</p>
+  </main>
+
+  <footer>
+    <div class="footer-main">
+      <div class="footer-box">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="https://www.copierpc.com.sg/">Home</a></li>
+          <li><a href="http://127.0.0.1:3000/about%20us.html">About Us</a></li>
+          <li><a href="https://www.copierpc.com.sg/contact-us/">Contact Us</a></li>
+          <li><a href="https://www.copierpc.com.sg/careers/">Careers</a></li>
+        </ul>
+      </div>
+      <div class="footer-box">
+        <h4>Products & Services</h4>
+        <ul>
+          <li><a href="https://www.copierpc.com.sg/copier/">Copier</a></li>
+          <li><a href="https://www.copierpc.com.sg/it-products/">IT Products</a></li>
+          <li><a href="https://www.copierpc.com.sg/copier-rental/">Copier Rental</a></li>
+          <li><a href="https://www.copierpc.com.sg/blog/">Blog</a></li>
+        </ul>
+      </div>
+      <div class="footer-box">
+        <h4>Contact Us</h4>
+        <ul>
+          <li class="footer-contact">Phone: <a href="tel:+6565279124">+65 6527 9124</a></li>
+          <li class="footer-contact">WhatsApp: <a href="https://api.whatsapp.com/send/?phone=6589662687&text&app_absent=0">+65 8966 2687</a></li>
+          <li class="footer-contact">Email: <a href="mailto:info@copierpc.com.sg">info@copierpc.com.sg</a></li>
+          <li class="footer-contact">Office: 110 Lor 23 Geylang, #05-07 Victory Centre, Singapore 388410</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-copy">
+      &copy; 2025 Rent Copier — Copier & Printer Solutions. All rights reserved.
+    </div>
+  </footer>
+</body>
+</html>
